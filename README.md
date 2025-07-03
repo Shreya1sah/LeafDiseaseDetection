@@ -46,7 +46,7 @@ Plant diseases cause significant losses in agriculture worldwide. Detecting dise
 
 ### 🔧 Clone the Repository
 
-```bash
+```bash```
 git clone https://github.com/Shreya1sah/LeafDiseaseDetection.git
 cd LeafDiseaseDetection/app
 
