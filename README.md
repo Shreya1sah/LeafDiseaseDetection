@@ -66,8 +66,35 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Download or Prepare Data
+### 📁 Download or Prepare Data
 
+Add your dataset in the following directory structure:
+
+```bash
+data/
+  ├── train/
+  │   ├── Apple_Scab/
+  │   ├── Black_Rot/
+  │   ├── Cedar_Apple_Rust/
+  │   ├── Healthy/
+  │   └── not_leaf/
+  ├── test/
+  │   ├── Apple_Scab/
+  │   ├── Black_Rot/
+  │   ├── Cedar_Apple_Rust/
+  │   ├── Healthy/
+  │   └── not_leaf/
+  ├── val/
+  │   ├── Apple_Scab/
+  │   ├── Black_Rot/
+  │   ├── Cedar_Apple_Rust/
+  │   ├── Healthy/
+  │   └── not_leaf/
+```
+You can use the [PlantVillage dataset](https://www.kaggle.com/datasets/emmarex/plantdisease) or your own collection of labeled leaf images.
+- The dataset used in this work consists of the Apple leaf disease dataset      from from PlantVillage dataset of Kaggle and not_leaf dataset.
+- The not_leaf dataset contains the images of                                   trucks, cars, dogs, cats, humans, fruits, etc(images that are not leaves).
+- The not_leaf dataset is used as if someone uploads the image of anything      that is not a leaf then the app correctly predicts that the image is          not_leaf.
 ### Run Training
 
 ### Test Model
