@@ -113,8 +113,17 @@ python test.py \
   --model output/leaf_model.h5 \
   --output_dir results/
 ```
-- The above structure generates performance metrics and sample prediction       images in results/.
-- leaf_model.h5 contains xception_model.h5, inceptionv3_model.h5,               densenet169_model.h5 ,where xception,inceptionv3,densenet169 are the CNN      models which are used to perform        fuzzy rank based ensemble approach    for leaf disease detection
+- The above structure generates performance metrics and sample prediction images in results/.
+- leaf_model.h5 contains xception_model.h5, inceptionv3_model.h5, densenet169_model.h5 ,where xception,inceptionv3,densenet169 are the CNN models which are used to perform        fuzzy rank based ensemble approach for leaf disease detection
+- ### 🧠 Why is results/ Important
+
+     The `results/` directory serves as:
+
+     - 📊 A record of how your models performed  
+     - 🖼️ Visual proof of correct vs incorrect classifications  
+     - 📁 A clean separation between model code and output data  
+     - ✅ Reproducible evaluation — others can validate your claims
+
   
 ## 🗂️ Project Structure
 
@@ -131,7 +140,6 @@ LeafDiseaseDetection/
 │   ├── train/
 │   ├── test/
 │   └── val/
-├── results/                      # Evaluation results: metrics, predictions, plots
 ├── requirements.txt              # Python dependencies (for model development)
 └── README.md                     # Project documentation
 ```
