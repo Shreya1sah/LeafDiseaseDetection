@@ -44,6 +44,19 @@ Plant diseases cause significant losses in agriculture worldwide. Detecting dise
 
 ### Installation & Setup
 
+### 🔧 Clone the Repository
+
+```bash
+git clone https://github.com/Shreya1sah/LeafDiseaseDetection.git
+cd LeafDiseaseDetection/app
+
+### 🐍 Create a Virtual Environment (optional)
+bash
+Copy code
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+
 ## Usage
 
 ### Download or Prepare Data
