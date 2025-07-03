@@ -21,3 +21,34 @@ Using preprocessing, model training, and visualization, the repository aims to p
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
+## Motivation
+
+Plant diseases cause significant losses in agriculture worldwide. Detecting diseases early—preferably through image-based automated solutions—can help farmers take timely action. This project supports such efforts by offering a lightweight, repeatable framework for leaf-disease classification.
+
+## Features
+
+## Getting Started
+
+### Requirements
+
+### Installation & Setup
+
+## Usage
+
+### Download or Prepare Data
+
+### Run Training
+
+### Test Model
+
+## Project Structure
+
+## Model & Evaluation
+
+## Visualization / Results
+
+## Contributing
+
+## License
+
+## Acknowledgments
