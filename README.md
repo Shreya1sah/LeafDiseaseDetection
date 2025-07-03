@@ -27,6 +27,12 @@ Plant diseases cause significant losses in agriculture worldwide. Detecting dise
 
 ## Features
 
+- 🔍 **Preprocessing pipeline** with resizing, normalization, and augmentation
+- 🧠 **Custom CNN** (or transfer learning) implementation
+- 🧪 **Model training** with validation and checkpointing
+- 📊 **Evaluation scripts** for accuracy, precision, recall, and F1-score
+- 🖼️ **Visualization modules** for displaying sample predictions
+
 ## Getting Started
 
 ### Requirements
