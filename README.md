@@ -120,17 +120,28 @@ python test.py \
 
 ```plaintext
 LeafDiseaseDetection/
-├── app/                        # Android app codebase using TFLite models
-├── models/                     # Contains trained .h5 and .tflite models
-├── scripts/                    # Python scripts for training, testing, and fusion
-│   ├── train.py
-│   ├── test.py
-│   ├── fuzzy_ensemble.py       # Implements fuzzy rank-based fusion
-├── data/                       # Dataset organized into train/test/val folders
-├── results/                    # Evaluation outputs (metrics, predictions)
-├── requirements.txt
-└── README.md
+├── app/                          # Android application code
+│   ├── java/                     # Java source files for app logic
+│   ├── assets/                   # TensorFlow Lite models (.tflite files)
+│   └── res/                      # UI layouts, icons, and other resources
+│
+├── models/                      
+├── scripts/                      # Python scripts for training and fusion logic
+│   ├── fuzzy_ensemble.py         # Fuzzy rank-based ensemble implementation
+│   └── utils/                    # Helper functions and preprocessing modules
+│
+├── data/                         # Image dataset organized for training/testing
+│   ├── train/
+│   ├── test/
+│   └── val/
+│
+├── results/                      # Evaluation results: metrics, predictions, plots
+│
+├── requirements.txt              # Python dependencies (for model development)
+└── README.md                     # Project documentation
 ```
+
+"data/" section has been defined above in "Download or Prepare Data" section
 
 ## Model & Evaluation
 
