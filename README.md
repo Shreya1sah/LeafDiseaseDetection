@@ -106,7 +106,14 @@ python train.py \
   --model output/leaf_model.h5
 ```
 
-### Test Model
+### 🧪 Test Model
+
+```bash
+python test.py \
+  --data_dir data/test \
+  --model output/leaf_model.h5 \
+  --output_dir results/
+```
 
 ## Project Structure
 
