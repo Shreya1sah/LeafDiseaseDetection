@@ -37,6 +37,11 @@ Plant diseases cause significant losses in agriculture worldwide. Detecting dise
 
 ### Requirements
 
+- Python 3.8+
+- TensorFlow or PyTorch
+- numpy, pandas, scikit-learn, matplotlib, opencv-python
+- *(Optional)* CUDA + cuDNN for GPU acceleration
+
 ### Installation & Setup
 
 ## Usage
