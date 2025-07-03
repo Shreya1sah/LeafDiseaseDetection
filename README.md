@@ -140,8 +140,6 @@ LeafDiseaseDetection/
 
 ## Model & Evaluation
 
-## 📊 Model & Evaluation
-
 This project uses an ensemble of three deep learning models for leaf disease classification:
 
 - 🧠 **DenseNet169**
