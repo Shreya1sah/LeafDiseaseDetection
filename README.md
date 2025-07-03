@@ -117,16 +117,107 @@ python test.py \
 - The above structure generates performance metrics and sample prediction       images in results/.
 - leaf_model.h5 contains xception_model.h5, inceptionv3_model.h5,               densenet169_model.h5 ,where xception,inceptionv3,densenet169 are the CNN      models which are used to perform        fuzzy rank based ensemble approach    for leaf disease detection
   
-## Project Structure
+## 🗂️ Project Structure
+
+```plaintext
+LeafDiseaseDetection/
+├── app/                        # Android app codebase using TFLite models
+├── models/                     # Contains trained .h5 and .tflite models
+├── scripts/                    # Python scripts for training, testing, and fusion
+│   ├── train.py
+│   ├── test.py
+│   ├── fuzzy_ensemble.py       # Implements fuzzy rank-based fusion
+├── data/                       # Dataset organized into train/test/val folders
+├── results/                    # Evaluation outputs (metrics, predictions)
+├── requirements.txt
+└── README.md
+```
 
 ## Model & Evaluation
 
+## 📊 Model & Evaluation
+
+This project uses an ensemble of three deep learning models for leaf disease classification:
+
+- 🧠 **DenseNet169**
+- 🧠 **InceptionV3**
+- 🧠 **Xception**
+
+Each model is trained independently on the same dataset. Their softmax outputs are passed into a **Fuzzy Rank-Based Ensemble** module which performs the following:
+
+- 🔄 **Normalization** of confidence scores into fuzzy ranks  
+- ➕ **Aggregation** of fuzzy ranks across all models  
+- ✅ **Final decision** based on the minimum total rank sum (i.e., highest confidence)
+
+This fuzzy ensemble method increases robustness, especially in differentiating between diseased leaves and completely unrelated inputs such as:
+
+- 🚗 trucks
+- 🐶 dogs
+- 👨 humans
+- 🍎 fruits
+
+These are captured under a special class: **`not_leaf`**, to avoid false predictions when the input is not a leaf.
+
+---
+
+### ✅ Evaluation Metrics
+
+The model is evaluated on the test set using the following metrics:
+
+- 📈 Accuracy  
+- 🎯 Precision  
+- ♻️ Recall  
+- 📊 F1-Score  
+- 🔁 Confusion Matrix
+
+All results, including numeric metrics and visual outputs (like confusion matrices and prediction examples), are saved in the `results/` directory.
+
+
 ## Visualization / Results
 
-## Contributing
+## 📸 Visualization / Results
+
+The `results/` directory includes:
+
+- 📉 **Confusion matrix plots**
+- 🖼️ **Sample predictions** (images with predicted labels)
+- 📊 **Per-class accuracy scores**
+- 📈 **Comparison charts** of individual model performance vs. ensemble
+
+---
+
+These visualizations help verify the model’s effectiveness:
+
+- ✅ **Healthy vs. diseased leaves** are correctly classified
+- 🚫 **Non-leaf images** (e.g., dogs, cars, fruits) are not misclassified as diseased
+- 🤝 The **fuzzy rank-based ensemble** improves reliability by reducing false positives and negatives, especially for ambiguous or noisy samples
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+If you’d like to contribute:
+
+1. 🍴 Fork the repository
+2. 📥 Clone your fork
+3. 🛠️ Create a new branch for your feature or bugfix
+4. 💡 Make your changes and commit them
+5. 🔄 Push to your branch
+6. 📩 Open a pull request
+
+Please ensure your code follows best practices and includes relevant comments and documentation where applicable.
+
+---
 
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for full details.
 
-## Acknowledgments
+## 🙏 Acknowledgments
+
+- [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease) — for providing a diverse dataset of leaf disease images.
+- TensorFlow and Keras teams — for enabling powerful deep learning workflows.
+- The open-source community — for providing incredible tools, resources, and support.
+- All researchers and contributors in the field of plant disease detection.
+
+Special thanks to everyone who helped test and improve this application.
+
