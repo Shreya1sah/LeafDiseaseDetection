@@ -115,14 +115,6 @@ python test.py \
 ```
 - The above structure generates performance metrics and sample prediction images in results/.
 - leaf_model.h5 contains xception_model.h5, inceptionv3_model.h5, densenet169_model.h5 ,where xception,inceptionv3,densenet169 are the CNN models which are used to perform        fuzzy rank based ensemble approach for leaf disease detection
-- ### 🧠 Why is results/ Important
-
-     The `results/` directory serves as:
-
-     - 📊 A record of how your models performed  
-     - 🖼️ Visual proof of correct vs incorrect classifications  
-     - 📁 A clean separation between model code and output data  
-     - ✅ Reproducible evaluation — others can validate your claims
 
   
 ## 🗂️ Project Structure
@@ -183,14 +175,14 @@ The model is evaluated on the test set using the following metrics:
 - 📊 F1-Score  
 - 🔁 Confusion Matrix
 
-All results, including numeric metrics and visual outputs (like confusion matrices and prediction examples), are saved in the `results/` directory.
+All results, including numeric metrics and visual outputs (like confusion matrices and prediction examples), needs to be saved in the `results/` directory.
 
 
 ## Visualization / Results
 
 ## 📸 Visualization / Results
 
-The `results/` directory includes:
+The `results/` directory should include:
 
 - 📉 **Confusion matrix plots**
 - 🖼️ **Sample predictions** (images with predicted labels)
