@@ -124,19 +124,14 @@ LeafDiseaseDetection/
 │   ├── java/                     # Java source files for app logic
 │   ├── assets/                   # TensorFlow Lite models (.tflite files)
 │   └── res/                      # UI layouts, icons, and other resources
-│
 ├── models/                      
 ├── scripts/                      # Python scripts for training and fusion logic
 │   ├── fuzzy_ensemble.py         # Fuzzy rank-based ensemble implementation
-│   └── utils/                    # Helper functions and preprocessing modules
-│
 ├── data/                         # Image dataset organized for training/testing
 │   ├── train/
 │   ├── test/
 │   └── val/
-│
 ├── results/                      # Evaluation results: metrics, predictions, plots
-│
 ├── requirements.txt              # Python dependencies (for model development)
 └── README.md                     # Project documentation
 ```
