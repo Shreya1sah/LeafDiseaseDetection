@@ -13,7 +13,7 @@ A fuzzy rank based ensemble learning pipeline has been used for detecting leaf d
   - [Download or Prepare Data](#download-or-prepare-data)
   - [Run Training](#run-training)
   - [Test Model](#test-model)
-- [Project Structure](#🗂️project-structure)
+- [🗂️Project Structure](#project-structure)
 - [Model & Evaluation](#model--evaluation)
 - [Visualization / Results](#visualization--results)
 - [Contributing](#contributing)
