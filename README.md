@@ -53,10 +53,10 @@ cd LeafDiseaseDetection/app
 ```
 
 ### 🐍 Create a Virtual Environment (optional)
-bash
-Copy code
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 ### 📦 Install Python Dependencies
 
