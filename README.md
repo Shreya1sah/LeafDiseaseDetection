@@ -176,7 +176,7 @@ The model is evaluated on the test set using the following metrics:
 All results, including numeric metrics and visual outputs (like confusion matrices and prediction examples), needs to be saved in the `results/` directory.
 
 
-## 📸 Visualization / Results
+## Visualization / Results
 
 The `results/` directory should include:
 
