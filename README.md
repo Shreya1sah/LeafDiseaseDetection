@@ -62,4 +62,6 @@ Plant diseases cause significant losses in agriculture worldwide. Detecting dise
 
 ## License
 
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for full details.
+
 ## Acknowledgments
