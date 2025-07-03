@@ -18,7 +18,7 @@ A fuzzy rank based ensemble learning pipeline has been used for detecting leaf d
 - [Visualization / Results](#visualization--results)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgements](#acknowledegments)
 
 ## Motivation
 
@@ -217,7 +217,7 @@ Please ensure your code follows best practices and includes relevant comments an
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for full details.
 
-## 🙏 Acknowledgments
+## 🙏 Acknowledgements
 
 - [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset) — for providing a diverse dataset of leaf disease images.
 - TensorFlow and Keras teams — for enabling powerful deep learning workflows.
