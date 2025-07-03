@@ -23,7 +23,7 @@ Using preprocessing, model training, and visualization, the repository aims to p
 
 ## Motivation
 
-Plant diseases cause significant losses in agriculture worldwide. Detecting diseases early—preferably through image-based automated solutions—can help farmers take timely action. This project supports such efforts by offering a lightweight, repeatable framework for leaf-disease classification.
+Leaf diseases cause significant losses in agriculture worldwide. Detecting diseases early—preferably through image-based automated solutions—can help farmers take timely action. This project supports such efforts by offering a lightweight, repeatable framework for leaf-disease classification.
 
 ## Features
 
