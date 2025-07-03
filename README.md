@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### 📁 Download or Prepare Data
+### Download or Prepare Data
 
 Add your dataset in the following directory structure:
 
@@ -95,7 +95,7 @@ You can use the [PlantVillage dataset](https://www.kaggle.com/datasets/abdallaha
 - The not_leaf dataset contains the images of                                   trucks, cars, dogs, cats, humans, fruits, etc(images that are not leaves).
 - The not_leaf dataset is used as if someone uploads the image of anything      that is not a leaf then the app correctly predicts that the image is          not_leaf.
 
-### 🏋️‍♀️ Run Training
+### Run Training
 
 ```bash
 python train.py \
@@ -105,7 +105,7 @@ python train.py \
   --model output/leaf_model.h5
 ```
 
-### 🧪 Test Model
+### Test Model
 
 ```bash
 python test.py \
