@@ -114,7 +114,8 @@ python test.py \
   --model output/leaf_model.h5 \
   --output_dir results/
 ```
-
+- leaf_model.h5 contains xception_model.h5, inceptionv3_model.h5, densenet169_model.h5 ,where xception,inceptionv3,densenet169 are the CNN models which are used to perform        fuzzy rank based ensemble approach for leaf disease detection
+  
 ## Project Structure
 
 ## Model & Evaluation
