@@ -1,6 +1,6 @@
 # 🌿 Leaf Disease Detection
 
-A machine learning pipeline for detecting plant leaf diseases from images.  
+A machine learning pipeline for detecting leaf diseases from images.  
 Using preprocessing, model training, and visualization, the repository aims to provide an effortless workflow for disease classification in leaves.
 
 ## Table of Contents
@@ -91,8 +91,8 @@ data/
   │   ├── Healthy/
   │   └── not_leaf/
 ```
-You can use the [PlantVillage dataset](https://www.kaggle.com/datasets/emmarex/plantdisease) or your own collection of labeled leaf images.
-- The dataset used in this work consists of the Apple leaf disease dataset      from from PlantVillage dataset of Kaggle and not_leaf dataset.
+You can use the [PlantVillage dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset) or your own collection of labeled leaf images.
+- The dataset used in this work consists of the Apple leaf disease dataset from PlantVillage dataset of Kaggle and not_leaf dataset.
 - The not_leaf dataset contains the images of                                   trucks, cars, dogs, cats, humans, fruits, etc(images that are not leaves).
 - The not_leaf dataset is used as if someone uploads the image of anything      that is not a leaf then the app correctly predicts that the image is          not_leaf.
 
@@ -214,10 +214,10 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for full 
 
 ## 🙏 Acknowledgments
 
-- [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/emmarex/plantdisease) — for providing a diverse dataset of leaf disease images.
+- [PlantVillage Dataset on Kaggle](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset) — for providing a diverse dataset of leaf disease images.
 - TensorFlow and Keras teams — for enabling powerful deep learning workflows.
 - The open-source community — for providing incredible tools, resources, and support.
-- All researchers and contributors in the field of plant disease detection.
+- All researchers and contributors in the field of leaf disease detection.
 
 Special thanks to everyone who helped test and improve this application.
 
