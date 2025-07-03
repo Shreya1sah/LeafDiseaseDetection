@@ -95,7 +95,16 @@ You can use the [PlantVillage dataset](https://www.kaggle.com/datasets/emmarex/p
 - The dataset used in this work consists of the Apple leaf disease dataset      from from PlantVillage dataset of Kaggle and not_leaf dataset.
 - The not_leaf dataset contains the images of                                   trucks, cars, dogs, cats, humans, fruits, etc(images that are not leaves).
 - The not_leaf dataset is used as if someone uploads the image of anything      that is not a leaf then the app correctly predicts that the image is          not_leaf.
-### Run Training
+
+### 🏋️‍♀️ Run Training
+
+```bash
+python train.py \
+  --data_dir data/train \
+  --epochs 20 \
+  --batch_size 32 \
+  --model output/leaf_model.h5
+```
 
 ### Test Model
 
