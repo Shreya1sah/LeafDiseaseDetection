@@ -13,7 +13,7 @@ A fuzzy rank based ensemble learning pipeline has been used for detecting leaf d
   - [Download or Prepare Data](#download-or-prepare-data)
   - [Run Training](#run-training)
   - [Test Model](#test-model)
-- [Project Structure](#project-structure)
+- [Project Structure](#🗂️project-structure)
 - [Model & Evaluation](#model--evaluation)
 - [Visualization / Results](#visualization--results)
 - [Contributing](#contributing)
@@ -117,7 +117,7 @@ python test.py \
 - leaf_model.h5 contains xception_model.h5, inceptionv3_model.h5, densenet169_model.h5 ,where xception,inceptionv3,densenet169 are the CNN models which are used to perform        fuzzy rank based ensemble approach for leaf disease detection
 
   
-## 🗂️ Project Structure
+## 🗂️Project Structure
 
 ```plaintext
 LeafDiseaseDetection/
