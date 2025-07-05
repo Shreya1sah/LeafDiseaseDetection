@@ -1,4 +1,4 @@
-#                           🌿 SmartLeafAI
+                          # 🌿 SmartLeafAI
 
 A fuzzy rank based ensemble learning pipeline has been used for detecting leaf diseases from images. Using preprocessing, model training, and visualization, the repository aims to provide an effortless workflow for disease classification in leaves.
 
