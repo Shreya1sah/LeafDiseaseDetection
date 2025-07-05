@@ -11,21 +11,61 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
+    <!-- Greeting Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp">
 
+        <!-- Hi Icon -->
+        <ImageView
+            android:id="@+id/hi_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/hi_icon"
+            android:contentDescription="Hi Icon"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Greeting Text -->
+        <TextView
+            android:id="@+id/greeting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Shreya"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <!-- Profile Picture -->
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/profile_pic"
+            android:contentDescription="Profile Picture"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/profile_pic"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+    <!-- Preview Image -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:scaleType="centerCrop"
-        android:background="#CCCCCC"
+        android:src="@drawable/agriculture_background"
         android:layout_marginBottom="16dp"/>
 
+    <!-- Select Image Button -->
     <Button
         android:id="@+id/select_image_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Select Image from Gallery" />
 
+    <!-- Predict Button -->
     <Button
         android:id="@+id/predict_button"
         android:layout_width="wrap_content"
@@ -33,6 +73,7 @@
         android:text="Predict"
         android:layout_marginTop="16dp" />
 
+    <!-- Result Text -->
     <TextView
         android:id="@+id/result_text"
         android:layout_width="wrap_content"
